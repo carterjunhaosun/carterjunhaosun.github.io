@@ -1,0 +1,113 @@
+.background1 {
+  background-color: #FFECE2;
+  width: 65%;
+  position: absolute;
+  height: 610px;
+  bottom: 0px;
+  right: 0px;
+  z-index: 2;
+}
+
+@keyframes spin {
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
+}
+
+
+
+@keyframes fade {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+.title {
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+.text {
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+.basset {
+  animation-name: fade;
+  animation-duration: 1s;
+}
+.move {
+  animation-name: spin;
+  animation-duration: 2s;
+  animation-timing-function: easeOutExpo;
+}
+.background2 {
+  background-color: #E5F5F6;
+  width: 60%;
+  position: absolute;
+  height: 610px;
+  right: 820px;
+  z-index: 0;
+  bottom: 0px;
+}
+
+.home:hover {
+  cursor: pointer;
+}
+
+.home {
+  text-decoration: none;
+  color: black;
+}
+
+nav {
+  font-family: 'Karla', sans-serif;
+  z-index: 1;
+  font-size: 16px;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  right: 40px;
+  z-index: 10;
+  top: 20px;
+}
+
+.basset {
+  z-index: 1;
+  width: 120px;
+  height: 100px;
+  position: relative;
+  top: 170px;
+  left: 63%;
+  z-index: 10;
+}
+
+.title {
+  font-family: 'Karla', sans-serif;
+  position: absolute;
+  left: 59%;
+  font-size: 40px;
+  top: 10%;
+  z-index: 10;
+}
+
+.text {
+  position: relative;
+  left: 50%;
+  top: 20%;
+  max-width: 500px;
+  font-size: 20px;
+  z-index: 10;
+}
+
+.side {
+  opacity: 0.6;
+  width: 490px;
+  position: absolute;
+  right: 800px;
+  bottom: 0px;
+  z-index: 1;
+  height: 610px;
+}
+
+.basset:hover {
+  cursor: pointer;
+}

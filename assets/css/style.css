@@ -1,0 +1,92 @@
+.basset, .golden, .border, .walter, .poodle, .pug {
+  width: 100px;
+  height: 100px;
+}
+
+.basset {
+  width: 120px;
+}
+
+.shiba {
+  width: 75px;
+}
+
+body {
+  background-color: #FFECE2;
+}
+
+p {
+  font-family: 'Karla', sans-serif;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-30%);
+  top: 60px;
+}
+
+.dogs {
+  position: absolute;
+  left: 30%;
+  top: 25%;
+}
+
+.row1 {
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 50px;
+}
+
+.row2 {
+  width: 700px;
+  position: relative;
+  transform: translateX(-8%);
+  display: flex;
+  justify-content: space-between;
+}
+
+@keyframes fade {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+.shiba {
+  animation-name: fade;
+  animation-duration: .5s;
+}
+
+.poodle {
+  animation-name: fade;
+  animation-duration: .5s;
+}
+
+.basset {
+  animation-name: fade;
+  animation-duration: .5s;
+}
+
+p {
+  animation-name: fade;
+  animation-duration: .5s;
+}
+.golden {
+  animation-name: fade;
+  animation-duration: .5s;
+}
+
+.border {
+  animation-name: fade;
+  animation-duration: .5s;
+}
+.walter {
+  animation-name: fade;
+  animation-duration: .5s;
+}
+
+.pug {
+  animation-name: fade;
+  animation-duration: .5s;
+}
